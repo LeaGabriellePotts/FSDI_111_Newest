@@ -1,7 +1,7 @@
 from app.database import get_db
 
 
-def output_formatter(results):
+def output_formatter(results): #note
     out = []
     for result in results:
         formatted = {
